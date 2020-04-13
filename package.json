@@ -1,0 +1,19 @@
+{
+  "name": "zmfe-cli",
+  "version": "2.0.0",
+  "description": "cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zmfe": "./bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0",
+    "simple-git": "^1.107.0"
+  },
+  "author": "NearImba",
+  "license": "ISC"
+}
